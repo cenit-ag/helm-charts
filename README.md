@@ -50,9 +50,16 @@ Package the chart (i.e. a chart named `test`) with the root directory of this re
 helm package test/ --destination .
 ```
 
+### Docs
+
+Copy the chart's README into the charts subfolder and name it with the chart's corresponding version number. Example for chart `test`:
+```
+test/docs/sm-1.0.3.md
+```
+
 ### Index
 
-Index repository:
+Index repository. Run this command from the repo's root directory:
 ```
 helm repo index --url https://cenit-ag.github.io/helm-charts .
 ```
