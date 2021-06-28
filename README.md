@@ -20,7 +20,7 @@ helm search repo cenit
 
 Pull a chart:
 ```
-helm pull cenit/test --version 0.1.0
+helm pull cenit/sm --version 1.0.3
 ```
 
 # Maintenance
