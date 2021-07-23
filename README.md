@@ -13,14 +13,14 @@ Run an update to gather the up-to-date chart index to your client:
 helm repo update
 ```
 
-List all charts available in the repository:
+List all charts available in the repository (flag `-l` will show all versions available for all matching charts):
 ```
-helm search repo cenit
+helm search repo -l cenit
 ```
 
 Pull a chart:
 ```
-helm pull cenit/sm --version 1.0.3
+helm pull cenit/sm --version 1.0.4
 ```
 
 # Maintenance
@@ -54,7 +54,7 @@ helm package test/ --destination .
 
 Copy the chart's README into the charts subfolder and name it with the chart's corresponding version number. Example for chart `test`:
 ```
-test/docs/sm-1.0.3.md
+test/docs/sm-1.0.4444.md
 ```
 
 ### Index
