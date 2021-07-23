@@ -54,7 +54,7 @@ helm package test/ --destination .
 
 Copy the chart's README into the charts subfolder and name it with the chart's corresponding version number. Example for chart `test`:
 ```
-test/docs/sm-1.0.4444.md
+test/docs/sm-1.0.4.md
 ```
 
 ### Index
