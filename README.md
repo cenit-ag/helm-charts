@@ -43,6 +43,8 @@ If the problem persists, please [create an issue](https://github.com/cenit-ag/he
 
 # Maintenance
 
+__NOTICE:__ This part is only revelant for CENIT staff maintaining this repository.
+
 ## Configure for Github Pages
 
 A Github repository can only be used a Helm repository if the branch containing the charts is configured as a Github pages site.
