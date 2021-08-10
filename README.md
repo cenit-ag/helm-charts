@@ -18,9 +18,19 @@ List all charts available in the repository (flag `-l` will show all versions av
 helm search repo -l cenit
 ```
 
+Example output:
+```
+NAME            CHART VERSION   APP VERSION  [...]
+cenit/sm        1.1.1                        [...]
+cenit/sm        1.1.0                        [...]
+cenit/sm        1.0.3                        [...]
+cenit/test      0.1.0           1.16.0       [...]
+
+```
+
 Pull a chart:
 ```
-helm pull cenit/sm --version 1.0.4
+helm pull cenit/sm --version <chart-version>
 ```
 
 # Maintenance
@@ -47,14 +57,14 @@ git clone https://github.com/cenit-ag/helm-charts.git
 
 Package the chart (i.e. a chart named `test`) with the root directory of this repository as destination:
 ```
-helm package test/ --destination .
+helm package test/ --version <chart-version> --destination .
 ```
 
 ### Docs
 
 Copy the chart's README into the charts subfolder and name it with the chart's corresponding version number. Example for chart `test`:
 ```
-test/docs/sm-1.0.4.md
+test/docs/sm-<chart-version>.md
 ```
 
 ### Index
