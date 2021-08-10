@@ -25,13 +25,21 @@ cenit/sm        1.1.1                        [...]
 cenit/sm        1.1.0                        [...]
 cenit/sm        1.0.3                        [...]
 cenit/test      0.1.0           1.16.0       [...]
-
 ```
 
 Pull a chart:
 ```
 helm pull cenit/sm --version <chart-version>
 ```
+
+If an expected chart does not show up after running `helm repo update`, delete the repo, add and update it once again:
+```
+helm repo remove cenit
+helm repo add cenit https://cenit-ag.github.io/helm-charts
+helm repo update
+```
+
+If the problem persists, please [create an issue](https://github.com/cenit-ag/helm-charts/issues/new/choose).
 
 # Maintenance
 
