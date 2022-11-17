@@ -3,11 +3,18 @@ Release Notes for `cenit-ag/helm-charts/sm`
 
 <!-- TOC -->
 
+- [v1.1.5](#v115)
 - [v1.1.4](#v114)
 - [v1.1.3](#v113)
 - [v1.1.2](#v112)
 
 <!-- /TOC -->
+
+# v1.1.5
+
+- Remove default value of `0` for `agent.podSecurityContext.runAsGroup` to avoid issues on many clusters
+- Add warning in documentation regarding the defaut `reclaimPolicy` being set to `Delete` by default for most `StorageClasses`
+- __BREAKING CHANGE:__ Fix CA certificate import for multiple cases in which multiple certificates are mentioned from the same Kubernetes secret. Check the default `values.yaml` file of the chart for the new configuration format.
 
 # v1.1.4
 - Annotations for IBM License Service added.
