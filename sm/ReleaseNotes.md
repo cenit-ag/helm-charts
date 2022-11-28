@@ -3,12 +3,19 @@ Release Notes for `cenit-ag/helm-charts/sm`
 
 <!-- TOC -->
 
+- [Release Notes for `cenit-ag/helm-charts/sm`](#release-notes-for-cenit-aghelm-chartssm)
+- [v1.1.6](#v116)
 - [v1.1.5](#v115)
 - [v1.1.4](#v114)
 - [v1.1.3](#v113)
 - [v1.1.2](#v112)
 
 <!-- /TOC -->
+
+# v1.1.6
+
+- Fix issue with mounting and importing CA certificates
+- Add notice regarding mounted log volumes in documentation
 
 # v1.1.5
 
