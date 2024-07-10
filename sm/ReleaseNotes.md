@@ -4,6 +4,7 @@ Release Notes for `cenit-ag/helm-charts/sm`
 <!-- TOC -->
 
 - [Release Notes for `cenit-ag/helm-charts/sm`](#release-notes-for-cenit-aghelm-chartssm)
+- [v1.1.8](#v118)
 - [v1.1.6](#v116)
 - [v1.1.5](#v115)
 - [v1.1.4](#v114)
@@ -11,6 +12,15 @@ Release Notes for `cenit-ag/helm-charts/sm`
 - [v1.1.2](#v112)
 
 <!-- /TOC -->
+
+# v1.1.8
+
+- Use this version for 5.5.11.0-003 and 5.5.11.0-004.
+- IBM Java 11 JRE updated
+- Apache Karaf updated
+- H2 updated.
+- Security fixes
+  - These fixes also have an effect on the URL to be used in the readyness and liveness probes.
 
 # v1.1.6
 
