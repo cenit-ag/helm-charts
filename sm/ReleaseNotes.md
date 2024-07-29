@@ -4,6 +4,7 @@ Release Notes for `cenit-ag/helm-charts/sm`
 <!-- TOC -->
 
 - [Release Notes for `cenit-ag/helm-charts/sm`](#release-notes-for-cenit-aghelm-chartssm)
+- [v1.2.0](#v120)
 - [v1.1.8](#v118)
 - [v1.1.6](#v116)
 - [v1.1.5](#v115)
@@ -13,6 +14,14 @@ Release Notes for `cenit-ag/helm-charts/sm`
 
 <!-- /TOC -->
 
+# v1.2.0
+
+- H2 updated from 2.1.x to 2.2.x
+  - **Important** If you are using H2 read the Release Notes before updating!
+- New operating UI based upon Angular
+- New features: Maintenance mode and tag manager. Both only accessible in the new UI.
+- User management now also available in the new UI.
+
 # v1.1.8
 
 - Use this version for 5.5.11.0-003 and 5.5.11.0-004.
@@ -20,7 +29,7 @@ Release Notes for `cenit-ag/helm-charts/sm`
 - Apache Karaf updated
 - H2 updated.
 - Security fixes
-  - These fixes also have an effect on the URL to be used in the readyness and liveness probes.
+  - These fixes also have an effect on the URL to be used in the readiness and liveness probes.
 
 # v1.1.6
 

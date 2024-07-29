@@ -21,6 +21,7 @@ helm search repo -l cenit
 Example output:
 ```
 NAME            CHART VERSION   APP VERSION  [...]
+cenit/sm        1.2.0                        [...]
 cenit/sm        1.1.8                        [...]
 ...
 cenit/sm        1.1.0                        [...]
