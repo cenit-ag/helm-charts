@@ -4,6 +4,7 @@ Release Notes for `cenit-ag/helm-charts/sm`
 <!-- TOC -->
 
 - [Release Notes for `cenit-ag/helm-charts/sm`](#release-notes-for-cenit-aghelm-chartssm)
+- [v1.3.0](#v130)
 - [v1.2.0](#v120)
 - [v1.1.8](#v118)
 - [v1.1.6](#v116)
@@ -13,6 +14,12 @@ Release Notes for `cenit-ag/helm-charts/sm`
 - [v1.1.2](#v112)
 
 <!-- /TOC -->
+
+# v1.3.0
+
+- IBM Java migrated from Java 11 to Java 21.
+- DB_CLOSE_DELAY parameter added to H2 JDBC URL.
+- Version updated to 5.7.0.0-000.
 
 # v1.2.0
 
