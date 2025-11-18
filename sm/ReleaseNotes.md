@@ -4,6 +4,7 @@ Release Notes for `cenit-ag/helm-charts/sm`
 <!-- TOC -->
 
 - [Release Notes for `cenit-ag/helm-charts/sm`](#release-notes-for-cenit-aghelm-chartssm)
+- [v1.3.1](#v131)
 - [v1.3.0](#v130)
 - [v1.2.0](#v120)
 - [v1.1.8](#v118)
@@ -15,14 +16,22 @@ Release Notes for `cenit-ag/helm-charts/sm`
 
 <!-- /TOC -->
 
+# v1.3.1
+
+- values.yaml redacted.
+  - More logical sequence of sections file.
+  - Hopefully more helpful comments.
+- Chart's README also redacted.
+
 # v1.3.0
 
-- IBM Java migrated from Java 11 to Java 21.
 - DB_CLOSE_DELAY parameter added to H2 JDBC URL.
-- Version updated to 5.7.0.0-000.
+- Version used in examples updated to 5.7.0.0-000.
+- Note: IBM Java included in the product migrated from Java 11 to Java 21.
 
 # v1.2.0
 
+- No functional but only minimal documentation changes.
 - H2 updated from 2.1.x to 2.2.x
   - **Important** If you are using H2 read the Release Notes before updating!
 - New operating UI based upon Angular
