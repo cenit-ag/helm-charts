@@ -16,7 +16,13 @@ Release Notes for `cenit-ag/helm-charts/sm`
 
 <!-- /TOC -->
 
+# v1.3.2
+
+- Typo in 1.3.1 fixed. That typo is reported as a warning or an error when trying to deploy the product.
+
 # v1.3.1
+
+DO NOT USE THIS FILE!
 
 - values.yaml redacted.
   - More logical sequence of sections file.
