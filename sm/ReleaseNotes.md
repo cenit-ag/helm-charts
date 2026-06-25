@@ -4,6 +4,8 @@ Release Notes for `cenit-ag/helm-charts/sm`
 <!-- TOC -->
 
 - [Release Notes for `cenit-ag/helm-charts/sm`](#release-notes-for-cenit-aghelm-chartssm)
+- [v1.4.0](#v140)
+- [v1.3.2](#v132)
 - [v1.3.1](#v131)
 - [v1.3.0](#v130)
 - [v1.2.0](#v120)
@@ -15,6 +17,10 @@ Release Notes for `cenit-ag/helm-charts/sm`
 - [v1.1.2](#v112)
 
 <!-- /TOC -->
+
+# v1.4.0
+
+- Option to define internal admin password removed. The password can now only be set from inside the deployed product (server component).
 
 # v1.3.2
 
