@@ -1,6 +1,11 @@
 # CENIT Helm Charts
 Charts in a Helm-compliant repository for products by CENIT or other vendors.
 
+# IMPORTANT
+
+Chart 2.0.0 will introduce breaking changes! Do *not* use it with older deployments
+without the necessary changes made to you values.yaml. Read the chart's README carefully!
+
 # Usage
 
 Add the chart repository:
