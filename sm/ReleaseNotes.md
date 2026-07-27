@@ -4,6 +4,7 @@ Release Notes for `cenit-ag/helm-charts/sm`
 <!-- TOC -->
 
 - [Release Notes for `cenit-ag/helm-charts/sm`](#release-notes-for-cenit-aghelm-chartssm)
+- [v2.0.0](#v200)
 - [v1.4.0](#v140)
 - [v1.3.2](#v132)
 - [v1.3.1](#v131)
@@ -17,6 +18,16 @@ Release Notes for `cenit-ag/helm-charts/sm`
 - [v1.1.2](#v112)
 
 <!-- /TOC -->
+
+# v2.0.0
+
+- BREAKING CHANGES! Read the chart's README carefully. Do not simple update and use this new chart with older
+deployments. Most likely it will not work!
+- Easier import of root and other certificates.
+- Volume mounts rewritten to make things more clear and avoid mounting big volumes below the `karaf` folder.
+- extraVolumeMounts no longer supported.
+- Slimlined the init-container. An init-container will only be used if there are certifacte imports to be done.
+- extraInitContainers no longer supported.
 
 # v1.4.0
 
