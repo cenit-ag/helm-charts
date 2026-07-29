@@ -3,8 +3,8 @@ Charts in a Helm-compliant repository for products by CENIT or other vendors.
 
 # IMPORTANT
 
-Chart 2.0.0 will introduce breaking changes! Do *not* use it with older deployments
-without the necessary changes made to you values.yaml. Read the chart's README carefully!
+Chart 2.0.0 introduces breaking changes! Do *not* use it with older deployments
+without the necessary changes made to your values.yaml. Read the chart's README carefully!
 
 # Usage
 
@@ -31,7 +31,7 @@ cenit/sm        1.1.8                        [...]
 ...
 cenit/sm        1.1.0                        [...]
 cenit/sm        1.0.3                        [...]
-cenit/test      0.1.0           1.16.0       [...]
+...
 ```
 
 Pull a chart:
