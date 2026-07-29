@@ -19,6 +19,15 @@ Release Notes for `cenit-ag/helm-charts/sm`
 
 <!-- /TOC -->
 
+# v2.0.1
+
+- It is now possible to explicitly define the allowed and forbidden TLS protcol versions used by
+the web server of the application.
+- It is now possible to explicitly define the allowed and forbidden cipher suites used by
+the web server of the application.
+- Settings documentation in chapter 4 of the chart's README updated.
+- Example of values.yaml in chapter 8 of the chart's README updated.
+
 # v2.0.0
 
 - BREAKING CHANGES! Read the chart's README carefully. Do not simple update and use this new chart with older
