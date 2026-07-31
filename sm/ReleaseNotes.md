@@ -19,12 +19,20 @@ Release Notes for `cenit-ag/helm-charts/sm`
 
 <!-- /TOC -->
 
+# v2.0.2
+
+- The user can now choose between separate volume claims or a single volume claim for the deploy,
+agent sync files and database volumes.
+- Documentation in chapter 4 updated.
+- New subchapters added to chapter 5 describing singel volume apporach and the jetty security
+setting introduced with v2.0.1.
+
 # v2.0.1
 
 - It is now possible to explicitly define the allowed and forbidden TLS protcol versions used by
-the web server of the application.
+the web server of the application. Uses a new init-container for this task.
 - It is now possible to explicitly define the allowed and forbidden cipher suites used by
-the web server of the application.
+the web server of the application. Uses the new init-container for this task.
 - Settings documentation in chapter 4 of the chart's README updated.
 - Example of values.yaml in chapter 8 of the chart's README updated.
 
