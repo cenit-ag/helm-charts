@@ -4,6 +4,7 @@ Release Notes for `cenit-ag/helm-charts/sm`
 <!-- TOC -->
 
 - [Release Notes for `cenit-ag/helm-charts/sm`](#release-notes-for-cenit-aghelm-chartssm)
+- [v2.0.5](#v205)
 - [v2.0.4](#v204)
 - [v2.0.3](#v203)
 - [v2.0.2](#v202)
@@ -22,6 +23,10 @@ Release Notes for `cenit-ag/helm-charts/sm`
 - [v1.1.2](#v112)
 
 <!-- /TOC -->
+
+# v2.0.5
+
+- File structure for agent sync changed.
 
 # v2.0.4
 
