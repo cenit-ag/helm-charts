@@ -4,6 +4,7 @@ Release Notes for `cenit-ag/helm-charts/sm`
 <!-- TOC -->
 
 - [Release Notes for `cenit-ag/helm-charts/sm`](#release-notes-for-cenit-aghelm-chartssm)
+- [v2.0.4](#v204)
 - [v2.0.3](#v203)
 - [v2.0.2](#v202)
 - [v2.0.1](#v201)
@@ -21,6 +22,10 @@ Release Notes for `cenit-ag/helm-charts/sm`
 - [v1.1.2](#v112)
 
 <!-- /TOC -->
+
+# v2.0.4
+
+- Typo in deployment.yaml in caCerts structure fixed.
 
 # v2.0.3
 
