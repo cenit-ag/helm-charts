@@ -4,6 +4,7 @@ Release Notes for `cenit-ag/helm-charts/sm`
 <!-- TOC -->
 
 - [Release Notes for `cenit-ag/helm-charts/sm`](#release-notes-for-cenit-aghelm-chartssm)
+- [v2.0.6](#v206)
 - [v2.0.5](#v205)
 - [v2.0.4](#v204)
 - [v2.0.3](#v203)
@@ -23,6 +24,11 @@ Release Notes for `cenit-ag/helm-charts/sm`
 - [v1.1.2](#v112)
 
 <!-- /TOC -->
+
+# v2.0.6
+
+- Indentation fixed for securityContext and resources sections.
+- Flag for read only filesystem mounts unified to `readOnly` for all mounts. It looks some K8s implementations are not case sensistive, so we have missed that in the past.
 
 # v2.0.5
 
