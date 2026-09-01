@@ -4,6 +4,7 @@ Release Notes for `cenit-ag/helm-charts/sm`
 <!-- TOC -->
 
 - [Release Notes for `cenit-ag/helm-charts/sm`](#release-notes-for-cenit-aghelm-chartssm)
+- [v2.0.7](#v207)
 - [v2.0.6](#v206)
 - [v2.0.5](#v205)
 - [v2.0.4](#v204)
@@ -24,6 +25,10 @@ Release Notes for `cenit-ag/helm-charts/sm`
 - [v1.1.2](#v112)
 
 <!-- /TOC -->
+
+# v2.0.7
+
+- Important note about `paxWebSecurity` configuration added to the chart's README. This option is for future use, so do not change the default setting at the moment.
 
 # v2.0.6
 
