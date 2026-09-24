@@ -4,6 +4,7 @@ Release Notes for `cenit-ag/helm-charts/sm`
 <!-- TOC -->
 
 - [Release Notes for `cenit-ag/helm-charts/sm`](#release-notes-for-cenit-aghelm-chartssm)
+- [v2.1.0](#v210)
 - [v2.0.7](#v207)
 - [v2.0.6](#v206)
 - [v2.0.5](#v205)
@@ -25,6 +26,16 @@ Release Notes for `cenit-ag/helm-charts/sm`
 - [v1.1.2](#v112)
 
 <!-- /TOC -->
+
+# v2.1.0
+
+- Fix for single volume approach: Scaling the agent deployment down and up removed files in the deploy folder. Check your
+  properties for single volume. The keyword is always 'singleVolumePersistence'!
+- A secret with more than one certificate but only one key will now be handled correctly. All certificates will be
+  imported into the trust store.
+- Typos in log messages fixed.
+- Typos in the chart's README fixed.
+- values.yaml examples in the chart's README updated.
 
 # v2.0.7
 
