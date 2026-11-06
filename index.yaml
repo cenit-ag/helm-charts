@@ -2,7 +2,16 @@ apiVersion: v1
 entries:
   sm:
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.945086928+02:00"
+    created: "2026-11-06T09:18:48.769252785+01:00"
+    description: Helm Chart for Enterprise System Monitor / Service Monitor
+    digest: ace7b8d4c3f9232d9ce70f38be4c9881f9e7c7fc992824a11ddfd23f1406edb1
+    name: sm
+    type: application
+    urls:
+    - https://cenit-ag.github.io/helm-charts/sm/sm-2.2.0.tgz
+    version: 2.2.0
+  - apiVersion: v2
+    created: "2026-11-06T09:18:48.767467373+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: c1a25c42e674c0211b52298390048617b576da844570c7cac0bd707eac80a2c5
     name: sm
@@ -11,7 +20,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-2.1.0.tgz
     version: 2.1.0
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.943584955+02:00"
+    created: "2026-11-06T09:18:48.765910875+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: 33155140d89ab17b10b0170ffe0e415b114785ca36be62de58b7d6ef1c97e58e
     name: sm
@@ -20,7 +29,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-2.0.7.tgz
     version: 2.0.7
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.941721978+02:00"
+    created: "2026-11-06T09:18:48.764373291+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: 3eec1c1aa3729332910e2e2ecff991e77db3a0ac3c91c4ef1020fa148e5e56b8
     name: sm
@@ -29,7 +38,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-2.0.6.tgz
     version: 2.0.6
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.93921983+02:00"
+    created: "2026-11-06T09:18:48.762922025+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: a8c3103a17256a7c8572df9b345a1174f29663a8bb97ad7e22c8a66b5be8040e
     name: sm
@@ -38,7 +47,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-2.0.5.tgz
     version: 2.0.5
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.938011963+02:00"
+    created: "2026-11-06T09:18:48.761229721+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: ed2e406e1c6fe38f2b88e2b08add1603688922cb86d4dfc55a26a99917d45cdf
     name: sm
@@ -47,7 +56,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-2.0.4.tgz
     version: 2.0.4
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.936226507+02:00"
+    created: "2026-11-06T09:18:48.759425525+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: 8f426d3efe13e19664f39c8d175940f69d082b0ea21363ced6ef4bbf29297ad7
     name: sm
@@ -56,7 +65,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-2.0.3.tgz
     version: 2.0.3
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.934354214+02:00"
+    created: "2026-11-06T09:18:48.757400315+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: e673474d7076af8540a31a95d1544eb08325020cc227ee9b448396c59da372a9
     name: sm
@@ -65,7 +74,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-2.0.2.tgz
     version: 2.0.2
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.93252226+02:00"
+    created: "2026-11-06T09:18:48.754416938+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: d70daacab6a86ec4156ffc5b55c2a9d2ada83d4b4a1578551b5a4e4ad1733c42
     name: sm
@@ -74,7 +83,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-2.0.1.tgz
     version: 2.0.1
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.930708047+02:00"
+    created: "2026-11-06T09:18:48.751844898+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: 524351af5f9c22db2546705cb15a1b8e4ddcadfb86c9de1253f864a8faeddd6a
     name: sm
@@ -83,7 +92,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-2.0.0.tgz
     version: 2.0.0
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.928556602+02:00"
+    created: "2026-11-06T09:18:48.749671802+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: 18f0f7a3412a1b813ec718e40dca5d42f556c87347c46192ad02e3c2a03ec59e
     name: sm
@@ -92,7 +101,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-1.4.0.tgz
     version: 1.4.0
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.92541873+02:00"
+    created: "2026-11-06T09:18:48.746848744+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: 05d7aac1d6796523c36477f1767af47d33603113346ca5ddb224016aeed61bee
     name: sm
@@ -101,7 +110,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-1.3.2.tgz
     version: 1.3.2
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.924055611+02:00"
+    created: "2026-11-06T09:18:48.744312355+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: 81df8092c806846a4ee978d67e065eef826a0bd575fa5623ac7da9cfa924ac37
     name: sm
@@ -110,7 +119,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-1.3.1.tgz
     version: 1.3.1
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.922848156+02:00"
+    created: "2026-11-06T09:18:48.741829207+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: e1370457028160c920c51aec4444f95b1f1b6393d90d6d3f3730f43afb165bd6
     name: sm
@@ -119,7 +128,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-1.3.0.tgz
     version: 1.3.0
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.921817348+02:00"
+    created: "2026-11-06T09:18:48.739328463+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: c48d9f0f560592a81b5b15b71f286f168a765053ddb80c66c6f9a06f117b3e90
     name: sm
@@ -128,7 +137,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-1.2.0.tgz
     version: 1.2.0
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.920578592+02:00"
+    created: "2026-11-06T09:18:48.737530575+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: 4aaa293213e083aaf28fa3164a7232eec3f559f64d3367b3f7626357de1d7651
     name: sm
@@ -137,7 +146,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-1.1.8.tgz
     version: 1.1.8
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.918674611+02:00"
+    created: "2026-11-06T09:18:48.735525026+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: a8d4274eba95ad1226649b28b20c190c0f9ff2b294f0b551dce2969d745cf8e2
     name: sm
@@ -146,7 +155,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-1.1.7.tgz
     version: 1.1.7
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.916903045+02:00"
+    created: "2026-11-06T09:18:48.733296381+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: 86739195b738a28a39d97d0e75f8529598b97341bc2fec64c76187b9bb5a1f50
     name: sm
@@ -155,7 +164,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-1.1.6.tgz
     version: 1.1.6
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.915721367+02:00"
+    created: "2026-11-06T09:18:48.730756976+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: b60412d302c4b3f69c8de16d227941d1f0226c82646b9fe8f83d5f22eb1c40fe
     name: sm
@@ -164,7 +173,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-1.1.5.tgz
     version: 1.1.5
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.914190613+02:00"
+    created: "2026-11-06T09:18:48.725915475+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: bf4f1db1ec4224b15cc9530c058933dfbacccd9a5f1c00bb37a8f67614dae7b5
     name: sm
@@ -173,7 +182,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-1.1.4.tgz
     version: 1.1.4
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.912715318+02:00"
+    created: "2026-11-06T09:18:48.722929197+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: b29c717021fe561a1fb995a35644dcc561a3e5021c7f4ff6edaa51e0779b0872
     name: sm
@@ -182,7 +191,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-1.1.3.tgz
     version: 1.1.3
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.9111936+02:00"
+    created: "2026-11-06T09:18:48.720066596+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: fb2974bc7662ad92c778035193ede9a27da1389d56c2dc7970191193c5d40609
     name: sm
@@ -191,7 +200,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-1.1.2.tgz
     version: 1.1.2
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.909400205+02:00"
+    created: "2026-11-06T09:18:48.717591941+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: 4b654996c032071e0a92363cd53ec751c06bd94f7e60c1fadad8b9bffb9fdade
     name: sm
@@ -200,7 +209,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-1.1.1.tgz
     version: 1.1.1
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.905961139+02:00"
+    created: "2026-11-06T09:18:48.714956315+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: ae6130db14a0af05891e65ef343ac6a8fc47ca0c81152da6109f747fac9e6e83
     name: sm
@@ -209,7 +218,7 @@ entries:
     - https://cenit-ag.github.io/helm-charts/sm/sm-1.1.0.tgz
     version: 1.1.0
   - apiVersion: v2
-    created: "2026-09-24T18:37:36.903682536+02:00"
+    created: "2026-11-06T09:18:48.712266881+01:00"
     description: Helm Chart for Enterprise System Monitor / Service Monitor
     digest: e9cfdfddae4e56075d6fada09ed8cf878b6441c63c1565812e6de31c5fc098a7
     name: sm
@@ -217,4 +226,4 @@ entries:
     urls:
     - https://cenit-ag.github.io/helm-charts/sm/sm-1.0.3.tgz
     version: 1.0.3
-generated: "2026-09-24T18:37:36.901468169+02:00"
+generated: "2026-11-06T09:18:48.707022817+01:00"

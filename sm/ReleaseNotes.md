@@ -4,6 +4,7 @@ Release Notes for `cenit-ag/helm-charts/sm`
 <!-- TOC -->
 
 - [Release Notes for `cenit-ag/helm-charts/sm`](#release-notes-for-cenit-aghelm-chartssm)
+- [v2.2.0](#v220)
 - [v2.1.0](#v210)
 - [v2.0.7](#v207)
 - [v2.0.6](#v206)
@@ -26,6 +27,12 @@ Release Notes for `cenit-ag/helm-charts/sm`
 - [v1.1.2](#v112)
 
 <!-- /TOC -->
+
+# v2.2.0
+
+- Typo fixed: `limit` vs/ `limits` in resources.
+- Missing security context added to init container in sts.
+- Additions and extension in the chart's readme.
 
 # v2.1.0
 
